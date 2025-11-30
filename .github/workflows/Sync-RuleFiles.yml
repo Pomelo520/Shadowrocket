@@ -40,6 +40,17 @@ jobs:
         Rules/ChinaMedia.list|$base_url/ChinaMedia/ChinaMedia.list
         Rules/China_Domain.list|$base_url/ChinaNoMedia/ChinaNoMedia_Domain.list
         Rules/China.list|$base_url/ChinaNoMedia/ChinaNoMedia.list
+        Rules/ChinaMax.list|$base_url/ChinaMax/ChinaMax.list
+        Rules/ChinaMax_Domain.list|$base_url/ChinaMax/ChinaMax_Domain.list
+        Rules/YouTube.list|$base_url/YouTube/YouTube.list
+        Rules/TikTok.list|$base_url/TikTok/TikTok.list
+        Rules/Spotify.list|$base_url/Spotify/Spotify.list
+        Rules/Twitter.list|$base_url/Twitter/Twitter.list
+        Rules/GitHub.list|$base_url/GitHub/GitHub.list
+        Rules/Whatsapp.list|$base_url/WhatsApp/WhatsApp.list
+        Rules/Netflix.list|$base_url/Netflix/Netflix.list
+        Rules/Instagram.list|$base_url/Instagram/Instagram.list
+        Rules/Grok.list|$base_url/Grok/Grok.list
         EOF
         while IFS='|' read -r filepath url; do
           echo "Downloading: $url -> $filepath"
