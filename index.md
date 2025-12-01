@@ -1,8 +1,3 @@
----
-layout: default
-title: 首页
----
-
 # Shadowrocket 规则仓库
 
 这是一个自动更新的 Shadowrocket 规则文件和地理定位数据库仓库。
