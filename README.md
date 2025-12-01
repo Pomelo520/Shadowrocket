@@ -31,8 +31,8 @@
 
 ---
 
-#### [基础配置](#基础配置)
-[基础配置](https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)的默认策略既是完善的策略，如无特殊需求，无需自行调整；<br>
+#### [完整配置](#完整配置)
+[完整配置](https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)的默认策略既是完善的策略，如无特殊需求，无需自行调整；<br>
 代理分组内的策略**自动分流**，自动测试节点的可用性，优先选择**延迟较低**的节点，无需手动切换节点；<br>
 你所使用的节点，尽量包含**英美韩港**这四项；<br>
 如**不完全包含**这四个地区的节点，则需要自行修改代理分组/正则 <br>
@@ -44,13 +44,13 @@ Telegram使用**英国节点**，Google、AI工具使用**美国节点**；<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
-使用须知：使用部分模块，**必须开启MitM**，教程参考下方的[推荐设置](#推荐设置)；<br>
+使用须知：若需使用部分模块，**必须开启MitM**，教程参考下方的[推荐设置](#推荐设置)；<br>
 如果本项目侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
 
 ---
 
 ### [推荐设置](#推荐设置)
-如需使用[融合模块](#融合模块)来净化应用，**必须开启HTTPS解密**，否则模块将不能正常工作；<br>
+如需使用模块，**必须开启HTTPS解密**，否则模块将不能正常工作；<br>
 建议添加**证书模块**，避免因配置变化导致HTTPS解密功能失效；<br>
 证书信任之后，**请勿在设置中移除证书**，否则HTTPS解密功能将会失效；<br>
 证书模块启用后，HTTPS解密功能默认**强制开启**，配置中的“HTTPS解密开关”将不再生效；<br>
