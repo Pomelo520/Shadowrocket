@@ -44,22 +44,8 @@ Telegram使用**英国节点**，Google、AI工具使用**美国节点**；<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
-### [融合模块](#融合模块)
-[融合模块](https://github.com/Pomelo520/Shadowrocket/blob/main/Release/Module.sgmodule)由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Generate-ModuleFiles.yml)调用[生成器](https://github.com/Pomelo520/Shadowrocket/blob/main/Generator/Builder.py)依据[规则列表](https://github.com/Pomelo520/Shadowrocket/blob/main/Generator/Generate.conf)而构建，随规则变化，不定期更新；<br>
-规则构成：以[Pomelo520](https://t.me/Pomelo520)基于[*@fmz200*](https://github.com/fmz200/wool_scripts) [*@QingRex*](https://github.com/QingRex/LoonKissSurge) [*@zirawell*](https://github.com/zirawell/R-Store)的项目定制，并持续手动维护的[重写合集](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/Collection.conf)为基础，融合了[小红书](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/Rednote.conf)、[哔哩哔哩](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/Bilibili.conf)、[YouTube](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/YouTube.conf)、[高德地图](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/Amap.js)、[一汽大众](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/FAWVW.conf)的专用规则；<br>
-所有[远程资源](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/JSInventory.md)由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-RewriteFiles.yml)依据[构建列表](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/JSGenerator.conf)每日自动构建&监测&清理，所有列表内指向的资源已重定向至[当前项目](https://github.com/Pomelo520/Shadowrocket/tree/main/Rewrite/JavaScript)；<br>
-
-使用须知：使用融合模块，**必须开启MitM**，教程参考下方的[推荐设置](#推荐设置)；<br>
-特别警告：融合模块**已移除“解锁类”功能**，请支持开发者！<br>
+使用须知：使用部分模块，**必须开启MitM**，教程参考下方的[推荐设置](#推荐设置)；<br>
 如果本项目侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
-
-[![一键安装 融合模块](https://img.shields.io/static/v1?label=一键安装&message=融合模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Module.sgmodule)<br>
-### [独立模块](#独立模块)
-[独立模块](https://github.com/Pomelo520/Shadowrocket/tree/main/Release/Modules)由[生成器](https://github.com/Pomelo520/Shadowrocket/blob/main/Generator/Builder.py)同步构建，请使用[模块助手](https://github.com/Pomelo520/Shadowrocket/blob/main/Static/ModuleHelper.html)进行查询与安装，助手同时提供**反解密模块制作**、**查看原始模块**等功能；<br>
-
-使用须知：[融合模块](#融合模块)已包含[独立模块](#独立模块)的所有功能，**请勿重复使用**！
-
-[![一键跳转 模块助手](https://img.shields.io/static/v1?label=一键跳转&message=模块助手&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/ModuleHelper.html)<br>
 
 ---
 
