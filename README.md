@@ -45,9 +45,17 @@ Telegram使用**英国节点**，Google、AI工具使用**美国节点**；<br>
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
 ---
+### [独立模块](#独立模块)
+[独立模块](https://github.com/Pomelo520/Shadowrocket/tree/main/Release/Modules)由[生成器](https://github.com/Pomelo520/Shadowrocket/blob/main/Generator/Builder.py)同步构建，请使用[模块助手](https://github.com/Pomelo520/Shadowrocket/blob/main/Static/ModuleHelper.html)进行查询与安装，助手同时提供**反解密模块制作**、**查看原始模块**等功能；<br>
+
+使用须知：[融合模块](#融合模块)已包含[独立模块](#独立模块)的所有功能，**请勿重复使用**！
+
+[![一键跳转 模块助手](https://img.shields.io/static/v1?label=一键跳转&message=模块助手&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/ModuleHelper.html)<br>
+
+---
 
 ### [推荐设置](#推荐设置)
-如需使用Shadowrocket模块来净化应用，**必须开启HTTPS解密**，否则模块将不能正常工作；<br>
+如需使用[融合模块](#融合模块)来净化应用，**必须开启HTTPS解密**，否则模块将不能正常工作；<br>
 建议添加**证书模块**，避免因配置变化导致HTTPS解密功能失效；<br>
 证书信任之后，**请勿在设置中移除证书**，否则HTTPS解密功能将会失效；<br>
 证书模块启用后，HTTPS解密功能默认**强制开启**，配置中的“HTTPS解密开关”将不再生效；<br>
