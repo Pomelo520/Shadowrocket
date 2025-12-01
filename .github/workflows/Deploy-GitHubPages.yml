@@ -6,6 +6,7 @@ on:
   workflow_run:
     workflows: 
       - "Sync-RuleFiles"
+      - "Sync-RewriteFiles"
       - "Sync-GeoLite2Files"
     types:
       - completed
