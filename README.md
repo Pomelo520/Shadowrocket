@@ -1,85 +1,101 @@
-## Shadowrocket（项目简介）
+# Shadowrocket — 配置与模块集合
 
-本项目由 [Pomelo520](https://t.me/Pomelo520) 维护，提供 Shadowrocket 的配置文件与模块集合，便于在 iOS 上使用与管理。  
-若本项目对您有帮助，欢迎 Star；如有问题或需求，请提交 Issues。
+> 由 **Pomelo520** 维护的 Shadowrocket 配置、规则与模块集合。  
+> 目标：为 iOS 上使用 Shadowrocket 的用户提供一套稳定、可更新的配置与模块管理方案。
 
----
-
-### 重要声明
-- 请勿在中国大陆的任意平台传播此项目。  
-- 禁止将本项目内容用于违法或营利用途。  
-- 本项目仅供学习、研究与测试，使用者须自行承担使用风险。  
-如认为本项目侵权或不希望被收录，请提交 Issue，我们会及时处理。
+[![Repo](https://img.shields.io/badge/Repo-Pomelo520%2FShadowrocket-blue)](https://github.com/Pomelo520/Shadowrocket)
+[![Pages](https://img.shields.io/badge/Pages-pomelo520.github.io/Shadowrocket-9cf)](https://pomelo520.github.io/Shadowrocket/)
+[![Release](https://img.shields.io/badge/Release-Modules-grey)](https://github.com/Pomelo520/Shadowrocket/tree/main/Release)
+[![License](https://img.shields.io/badge/License-ASK-lightgrey)](LICENSE)
 
 ---
 
-### 配置文件（概览）
-- 默认使用加密的 DoH/DoT 解析并对未加密 DNS 请求加密转发。  
-- 系统服务（Apple / Microsoft / Google 等）采用单独分流规则以避免冲突。  
-- 海外主流 AI 平台、微信、Telegram 等有独立分流策略以保障稳定性。  
-- 规则来源：基于 [blackmatrix7 的规则集](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket)，由 GitHub Actions 自动同步更新。
-
-**快速安装（在手机上打开并点击）**：  
-[![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)
-
----
-
-## 融合模块（Module）
-[融合模块](https://github.com/pomelo520/Shadowrocket/blob/main/Release/Module.sgmodule) 由 [GitHub Actions](https://github.com/pomelo520/Shadowrocket/blob/main/.github/workflows/Generate-ModuleFiles.yml) 调用生成器构建，依据仓库内的规则列表自动更新。
-
-规则构成：整合 fmz200、QingRex、zirawell 等项目规则，并结合个人维护的重写合集（包含小红书、哔哩哔哩、YouTube、高德地图、一汽大众等定制规则）。  
-远程资源列表（JSInventory）由 [Sync-RewriteFiles workflow](https://github.com/pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-RewriteFiles.yml) 根据 `Rewrite/JSGenerator.conf` 每日自动构建与清理。
-
-使用须知：使用融合模块必须开启 MitM（HTTPS 解密），否则模块功能将无法正常工作。  
-特别声明：融合模块不包含“解锁类”功能，请尊重版权与开发者。
-
-[![一键安装 融合模块](https://img.shields.io/static/v1?label=一键安装&message=融合模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://pomelo520.github.io/Shadowrocket/Release/Module.sgmodule)
+## 目录
+- [简介](#简介)
+- [快速安装](#快速安装)
+- [核心内容](#核心内容)
+  - [配置文件](#配置文件)
+  - [融合模块（Module）](#融合模块)
+  - [独立模块（Modules）与模块助手](#独立模块modules与模块助手)
+- [推荐设置（简要）](#推荐设置简要)
+- [工作流与自动化](#工作流与自动化)
+- [常见问题与排查](#常见问题与排查)
+- [贡献与鸣谢](#贡献与鸣谢)
+- [许可说明](#许可说明)
 
 ---
 
-## 独立模块（Modules）
-独立模块位于：  
-https://github.com/pomelo520/Shadowrocket/tree/main/Release/Modules  
-可以使用 **模块助手** 查询/安装（支持查看原始模块、生成反解密模块等功能）：
+## 简介
+本项目维护 Shadowrocket 的配置规则、融合模块与多个独立模块，定期由 GitHub Actions 自动同步、构建与清理。设计目标是「开箱即用、自动更新、易于定制」。
 
-[![一键跳转 模块助手](https://img.shields.io/static/v1?label=一键跳转&message=模块助手&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://pomelo520.github.io/Shadowrocket/Static/ModuleHelper.html)
+---
 
-> 融合模块已包含独立模块功能，通常无需重复安装。
+## 快速安装
+> 在 iPhone/iPad 上打开下面链接并点击即可一键安装（请确保设备已安装 Shadowrocket）：
+
+- 一键安装 Shadowrocket 配置：  
+  [![安装配置](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=orange&logo=googledocs&labelColor=orange)](https://pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)
+
+- 一键安装 融合模块（Module）：  
+  [![安装融合模块](https://img.shields.io/static/v1?label=一键安装&message=融合模块&color=blue&logo=googledocs&labelColor=blue)](https://pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://pomelo520.github.io/Shadowrocket/Release/Module.sgmodule)
+
+- 模块助手（网页端，查看 / 安装独立模块）：  
+  [![模块助手](https://img.shields.io/static/v1?label=模块助手&message=ModuleHelper&color=blue&logo=googledocs&labelColor=blue)](https://pomelo520.github.io/Shadowrocket/Static/ModuleHelper.html)
+
+---
+
+## 核心内容
+
+### 配置文件
+- 主配置文件（适合大多数用户）：`Release/Pomelo520.conf`。  
+- 默认采用加密的 DoH/DoT 解析，并对未加密 DNS 进行加密转发。  
+- 系统服务（Apple/Microsoft/Google）和国内外重要服务做了单独分流，减少误判与影响。
+
+### 融合模块（Module）
+- 文件：`Release/Module.sgmodule`。  
+- 说明：融合模块由仓库内规则与外部规则整合生成（见下方“工作流与自动化”）。**使用融合模块需开启 MitM（HTTPS 解密）**。  
+- 生成器：`Generator/Builder.py`。  
+- 规则来源：包括 fmz200、QingRex、zirawell、以及本仓库自定义规则（如小红书 / 哔哩哔哩 / YouTube / 高德等）。
+
+### 独立模块（Modules）与模块助手
+- 独立模块存放：`Release/Modules/`（每个 `.sgmodule` 可单独安装）。  
+- 使用模块助手 `Static/ModuleHelper.html` 可在线查看模块、复制反解密模块模板、直接跳转安装等。
 
 ---
 
 ## 推荐设置（简要）
-- 必须开启 HTTPS 解密（MitM），并安装信任证书（可通过“证书模块”导入 CA）。  
-- 首页全局路由：选择 **配置**；关闭启用回退（避免策略覆盖）。  
-- 代理类型建议 HTTP，地址 `127.0.0.1`（按你本地设定）。  
-- 订阅与 GeoLite2 数据库：建议开启自动更新（订阅间隔 24 小时，GeoLite 更新间隔 7 天）。  
-- GeoLite2 下载链接（示例，请在 Pages 中确保文件存在）：  
-  - Country.mmdb: `https://pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb`  
-  - ASN.mmdb: `https://pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb`
-
-更多使用细节可参考 Shadowrocket 官方/第三方文档。
+- **必须**开启 HTTPS 解密（MitM）以使用重写/融合模块。  
+- 建议为证书生成“证书模块”，并保持该模块启用以避免误删证书导致功能失效。  
+- 代理分组建议包含：**英国 / 美国 / 韩国 / 香港**（优先保证节点多样性以覆盖地域路由策略）。  
+- GeoLite2 数据库（用于地理分流）：可在 Settings → GeoLite2 填入 Pages 提供的链接并自动更新：
+  - `https://pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb`
+  - `https://pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb`
 
 ---
 
-## 特别鸣谢
-感谢以下项目/作者的规则、脚本与工具（排名不分先后）：
-
-- [001ProMax](https://github.com/001ProMax)  
-- [app2smile](https://github.com/app2smile)  
-- [blackmatrix7](https://github.com/blackmatrix7)  
-- [fmz200](https://github.com/fmz200)  
-- [godalming123](https://github.com/godalming123)  
-- [iab0x00](https://github.com/iab0x00)  
-- [iKeLee](https://github.com/luestr)  
-- [Keywos](https://github.com/Keywos)  
-- [kokoryh](https://github.com/kokoryh)  
-- [LOWERTOP](https://github.com/LOWERTOP)  
-- [Maasea](https://github.com/Maasea)  
-- [MaxMind](https://www.maxmind.com)  
-- [NobyDa](https://github.com/NobyDa)  
-- [QingRex](https://github.com/QingRex)  
-- [Sliverkiss](https://github.com/Sliverkiss)  
-- [zirawell](https://github.com/zirawell)  
-- [zZPiglet](https://github.com/zZPiglet)
+## 工作流与自动化
+- `Generate-ModuleFiles.yml`：运行 `Generator/Builder.py` 生成融合模块与 Release/Modules 内容。  
+- `Sync-RewriteFiles.yml`：抓取/整理 Rewrite/JS 等远程资源，更新 `Rewrite/JavaScript/` 与 `Rewrite/JSInventory.md`。  
+- `Sync-RuleFiles.yml`：每日同步黑名单/规则来源（如 blackmatrix7 repo）。  
+> 注意：某些 workflow 包含 `git pull --rebase` 步骤可能在自动提交时遇到冲突（会导致 Action 失败），推荐将 stash/rebase 步骤替换为由 `EndBug/add-and-commit` 直接处理提交（可联系我帮你修改 workflow）。
 
 ---
+
+## 常见问题与排查
+- **页面打不开 / 无法安装配置**：请确认 GitHub Pages 已启用且 `Static/` 与 `Release/` 下文件已发布（`https://pomelo520.github.io/Shadowrocket/` 可访问）。  
+- **一键安装跳转失败**：确认手机上已安装 Shadowrocket，并允许外部链接打开（iOS 上可能需允许）。  
+- **Actions 失败（exit code 1）**：常见原因是 `git rebase` 冲突或 curl 下载失败，可把相关步骤改为容错（或删除 rebase）。  
+- **融合模块不生效**：确认已开启 HTTPS 解密（MitM）并启用了证书模块；同时检查模块是否被 Shadowrocket 正常加载。
+
+---
+
+## 贡献与鸣谢
+欢迎提交 PR / Issue。  
+特别感谢（按拼音 / 随机顺序）：  
+`001ProMax`, `app2smile`, `blackmatrix7`, `fmz200`, `godalming123`, `iab0x00`, `iKeLee`, `Keywos`, `kokoryh`, `LOWERTOP`, `Maasea`, `MaxMind`, `NobyDa`, `QingRex`, `Sliverkiss`, `zirawell`, `zZPiglet` 等。
+
+---
+
+## 许可说明
+本项目仅提供规则/模块集合，**不鼓励任何侵犯版权或违法用途**。如认为本项目侵犯您的权益，请提交 Issue，我们会及时处理。  
+（如需明确开源协议，请在仓库根放 `LICENSE` 文件并在此处注明）
