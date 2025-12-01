@@ -45,18 +45,12 @@ Telegram使用**英国节点**，Google、AI工具使用**美国节点**；<br>
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
 ### 融合模块
-
 [融合模块](https://github.com/Pomelo520/Shadowrocket/blob/main/Release/Module.sgmodule)
 由 [GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Generate-ModuleFiles.yml)
 调用 [生成器](https://github.com/Pomelo520/Shadowrocket/blob/main/Generator/Builder.py)
 依据 [规则列表](https://github.com/Pomelo520/Shadowrocket/blob/main/Generator/Generate.conf) 构建，随规则变化自动更新。  
 
-规则构成：基于 fmz200、QingRex、zirawell 的项目规则整合，并结合个人定制内容构建的重写合集，包括但不限于：  
-- [小红书](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520/Rednote.conf)  
-- [哔哩哔哩](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/Bilibili.conf)  
-- [YouTube](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/XiangwanConfig/YouTube.conf)  
-- [高德地图](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/XiangwanConfig/Amap.js)  
-- [一汽大众](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/XiangwanConfig/FAWVW.conf)  
+规则构成：基于 fmz200、QingRex、zirawell 的项目规则整合，并结合个人定制内容构建的重写合集，包括但不限于：[小红书](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520/Rednote.conf)[哔哩哔哩](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/Pomelo520Config/Bilibili.conf)[YouTube](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/XiangwanConfig/YouTube.conf)[高德地图](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/XiangwanConfig/Amap.js)[一汽大众](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/XiangwanConfig/FAWVW.conf)  
 
 所有 [远程资源](https://github.com/Pomelo520/Shadowrocket/blob/main/Rewrite/JSInventory.md)
 由 [GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-RewriteFiles.yml)
