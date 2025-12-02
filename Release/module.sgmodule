@@ -1,4 +1,3 @@
-#!url=https://Pomelo520.github.io/Shadowrocket/Release/module.sgmodule
 #!name=Shadowrocket证书
 #!desc=需要以编辑参数的方式启用并填写完整配置
 #!arguments=证书模块:false, 证书内容:此处粘贴有效的证书内容, 证书密码:Shadowrocket, 插入解密主机:英文逗号分隔主机名, 主机插入方式:%APPEND%
