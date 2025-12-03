@@ -11,7 +11,7 @@
 
 ---
 
-### [配置文件](#配置文件)
+### [Shadowrocket 的配置](#Shadowrocket 的配置)
 为了保证完全接管流量，本配置默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。此配置是最适合搭配机场使用的配置，添加后无需调整，建议首选此配置！如果侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
