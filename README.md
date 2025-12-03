@@ -11,7 +11,7 @@
 
 ---
 
-### [Shadowrocket 的配置](#Shadowrocket 的配置)
+### [配置文件](#配置文件)
 为了保证完全接管流量，本配置默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。此配置是最适合搭配机场使用的配置，添加后无需调整，建议首选此配置！如果侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
@@ -39,7 +39,7 @@ Shadowrocket 的配置文件简要：
 4.	模块配置：复制证书内容与密码到模块编辑参数中（详见仓库内证书模块说明）。<br>
 5.	使用须知：证书模块启用后，HTTPS 解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
 
-### [推荐Shadowrocket设置](#推荐Shadowrocket设置)
+### [推荐设置](#推荐设置)
 1.	首页 → 全局路由：选择配置。<br>
 2.	关闭“启用回退”。<br>
 3.	设置 → 按需连接：开启“始终开启”。<br>
@@ -50,7 +50,7 @@ Shadowrocket 的配置文件简要：
 8.	温和策略机制：建议开启。<br>
 9.	排除路由 0.0.0.0/31：建议关闭。<br>
 
-### [常见问题与排查](#常见问题与排查)
+### [常见问题](#常见问题)
 1.	如何安装：使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装<br>
 2.	无法加载配置：请检查网络或将全局路由切换为代理模式。<br>
 3.	模块不可用：确认已生成并信任证书，且在模块中正确粘贴了证书内容与密码。<br>
