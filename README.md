@@ -51,14 +51,13 @@
 5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 
 软件配置：<br>
-•	首页 → 全局路由：选择配置。
-•	关闭“启用回退”。
-•	设置 → 按需连接：开启“始终开启”。
-•	设置 → 代理：类型选择 HTTP，地址 127.0.0.1。
-•	设置 → 配置：关闭“自动后台更新”。
-127.0.0.1。
-•	订阅：开启“自动后台更新”，间隔设为 24（
-•	GeoLite2 数据库：开启自动更新，间隔设为 7（天）；将下列链接粘贴到对应 URL 输入框并手动更新：[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)，粘贴至对应的**URL输入框**中 ，并点击**更新**；<br>
+•	首页 → 全局路由：选择配置。<br>
+•	关闭“启用回退”。<br>
+•	设置 → 按需连接：开启“始终开启”。<br>
+•	设置 → 代理：类型选择 HTTP，地址 127.0.0.1。<br>
+•	设置 → 配置：关闭“自动后台更新”。<br>
+•	订阅：开启“自动后台更新”，间隔设为 24（小时)<br>
+•	GeoLite2 数据库：开启自动更新，间隔设为 7（天）；将下列链接粘贴到对应 URL 输入框并手动更新：[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)<br>
 •	温和策略机制：建议开启。
 •	排除路由 0.0.0.0/31：建议关闭。
 
