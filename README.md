@@ -41,10 +41,6 @@
 证书信任之后，**请勿在设置中移除证书**，否则HTTPS解密功能将会失效；<br>
 证书模块启用后，HTTPS解密功能默认**强制开启**，配置中的“HTTPS解密开关”将不再生效；<br>
 
-如何安装：<br>
-使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
-如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
-
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
 证书安装与配置步骤简要：<br>
@@ -55,26 +51,16 @@
 5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 
 软件配置：<br>
-首页-全局路由：
-选择**配置**；<br>
-首页-全局路由：
-**关闭**启用回退；<br>
-设置-按需求连接：
-**开启**始终开启；<br>
-设置-代理：
-代理类型选择**HTTP**，代理地址选择**127.0.0.1**；<br>
-设置-配置：
-**关闭**自动后台更新；<br>
-设置-订阅：
-**开启**自动后台更新，间隔选择**24**；<br>
-设置-GeoLite2数据库：
-**开启**自动后台更新，间隔选择**7**；<br>
-设置-GeoLite2数据库：
-拷贝链接：[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)，粘贴至对应的**URL输入框**中 ，并点击**更新**；<br>
-设置-温和策略机制：
-选择**开启**；<br>
-设置-排除路由0.0.0.0/31：
-选择**关闭**；<br>
+•	首页 → 全局路由：选择配置。
+•	关闭“启用回退”。
+•	设置 → 按需连接：开启“始终开启”。
+•	设置 → 代理：类型选择 HTTP，地址 127.0.0.1。
+•	设置 → 配置：关闭“自动后台更新”。
+127.0.0.1。
+•	订阅：开启“自动后台更新”，间隔设为 24（
+•	GeoLite2 数据库：开启自动更新，间隔设为 7（天）；将下列链接粘贴到对应 URL 输入框并手动更新：[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)，粘贴至对应的**URL输入框**中 ，并点击**更新**；<br>
+•	温和策略机制：建议开启。
+•	排除路由 0.0.0.0/31：建议关闭。
 
 更多使用说明，可参阅：[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
 
