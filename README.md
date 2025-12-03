@@ -1,5 +1,4 @@
-<!doctype html>
-<html lang="zh-CN">
+
 <head>
   <!-- 基础元信息 -->
   <meta charset="utf-8" />
