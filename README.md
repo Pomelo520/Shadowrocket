@@ -44,12 +44,12 @@ Telegram使用**英国节点**，Google、AI工具使用**美国节点**；<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
-使用须知：若需使用部分模块，**必须开启MitM**，教程参考下方的[推荐设置](#推荐设置)；<br>
+使用须知：若需使用部分模块，**必须开启MitM**，教程参考下方的[证书模块](#证书模块)；<br>
 如果本项目侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
 
 ---
 
-### [推荐设置](#推荐设置)
+### [证书模块](#证书模块)
 如需使用模块，**必须开启HTTPS解密**，否则模块将不能正常工作；<br>
 建议添加**证书模块**，避免因配置变化导致HTTPS解密功能失效；<br>
 证书信任之后，**请勿在设置中移除证书**，否则HTTPS解密功能将会失效；<br>
