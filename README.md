@@ -28,7 +28,7 @@ Shadowrocket分流规则特点：
 ---
 
 ### [证书模块](#证书模块)
-证书安装后请不要在系统设置中移除证书，开启iCloud同步的多设备用户请勿在其它设备重新生成证书，建议复制证书内容并通过AirDrop等方式在设备间同步安装，否则原设备证书会失效。<br>
+证书安装后请不要在系统设置中移除证书，开启 iCloud 同步的多设备用户请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
@@ -37,7 +37,7 @@ Shadowrocket分流规则特点：
 2.	系统设置：已下载的描述文件 → 安装。<br>
 3.	系统设置：通用 → 关于本机 → 证书信任设置 → 启用该根证书完全信任。<br>
 4.	模块配置：复制证书内容与密码到模块编辑参数中（详见仓库内证书模块说明）。<br>
-5.	使用须知：证书模块启用后，HTTPS解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
+5.	使用须知：证书模块启用后，HTTPS 解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
 
 ### [推荐Shadowrocket设置](#推荐Shadowrocket设置)
 1.	首页 → 全局路由：选择配置。<br>
