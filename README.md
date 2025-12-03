@@ -32,10 +32,7 @@
 ---
 
 ### [证书模块](#证书模块)
-如需使用模块，**必须开启HTTPS解密**，否则模块将不能正常工作；<br>
-建议添加**证书模块**，避免因配置变化导致HTTPS解密功能失效；<br>
-证书信任之后，**请勿在设置中移除证书**，否则HTTPS解密功能将会失效；<br>
-证书模块启用后，HTTPS解密功能默认**强制开启**，配置中的“HTTPS解密开关”将不再生效；<br>
+若需使用模块功能，必须开启 HTTPS 解密（MitM），否则模块无法工作。建议安装并信任证书模块以避免因配置变化导致 HTTPS 解密失效。证书安装后请不要在系统设置中移除证书。<br>
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
@@ -47,11 +44,9 @@
 5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 
 ### [常见问题与排查](#常见问题与排查)
-	•	无法加载配置：请检查网络或将全局路由切换为代理模式。
-	•	模块不可用：确认已生成并信任证书，且在模块中正确粘贴了证书内容与密码。
-	•	多设备证书失效：请勿在多设备上重复生成证书，请通过复制/传输证书内容方法安装到其它设备。
-使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
-如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
+1.	无法加载配置：请检查网络或将全局路由切换为代理模式。
+2.	模块不可用：确认已生成并信任证书，且在模块中正确粘贴了证书内容与密码。
+3.	多设备证书失效：请勿在多设备上重复生成证书，请通过复制/传输证书内容方法安装到其它设备。
 
 更多使用说明，可参阅：[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
 
