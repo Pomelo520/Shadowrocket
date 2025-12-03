@@ -1,10 +1,10 @@
-# [Shadowrocket](#Shadowrocket)
+# [Shadowrocket](#项目简介)
 本[项目](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520](https://t.me/Pomelo520)维护，提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)<br>
 如果此项目对您有帮助，欢迎给予Star；若有其他需求或问题，请提交Issues！<br>
 
 ---
 
-## [重要声明](#重要声明)
+### [重要声明](#重要声明)
 禁止在中国大陆的任何平台传播此项目！<br>
 禁止将本项目中的任何内容用于违法活动或用于盈利目的！<br>
 本项目仅供学习交流及测试，使用本项目中的内容所造成的一切后果，均由使用者承担！<br>
@@ -21,12 +21,11 @@
 本项目所使用的**规则集**源自[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket)的仓库，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-RuleFiles.yml)**每日自动同步**；<br>
 本项目所使用的**GeoLite2数据库**源自[MaxMind](https://www.maxmind.com)提供的免费版本，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-GeoLite2Files.yml)**每日自动同步**；<br>
 
-#### [如何安装](#如何安装)
-
+如何安装：<br>
 使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
 如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
 
-[![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf) [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
+[![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
 修改分流：<br>
 打开Shadowrocket首页，下拉进入**代理分组**，选择你想要修改的代理分组，选择对应的**策略**即可；<br>
@@ -37,20 +36,28 @@
 ---
 
 ### [证书模块](#证书模块)
-若需使用模块功能，必须开启 HTTPS 解密（MitM），否则模块无法工作。建议安装并信任证书模块以避免因配置变化导致 HTTPS 解密失效。证书安装后请不要在系统设置中移除证书<br>
+如需使用模块，**必须开启HTTPS解密**，否则模块将不能正常工作；<br>
+建议添加**证书模块**，避免因配置变化导致HTTPS解密功能失效；<br>
+证书信任之后，**请勿在设置中移除证书**，否则HTTPS解密功能将会失效；<br>
+证书模块启用后，HTTPS解密功能默认**强制开启**，配置中的“HTTPS解密开关”将不再生效；<br>
+
 如何安装：<br>
 使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
+如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
 证书模块使用办法：<br>
-	1.	Shadowrocket：配置 → 点击配置文件右侧 ⓘ → HTTPS 解密 → 证书 → 生成新的 CA 证书 → 安装证书。<br>
-	2.	系统设置：已下载的描述文件 → 安装。<br>
-	3.	系统设置：通用 → 关于本机 → 证书信任设置 → 启用该根证书完全信任。<br>
-	4.	模块配置：复制证书内容与密码到模块编辑参数中（详见仓库内证书模块说明）。<br>
-	5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
+**配置** > 点击**配置文件**的 **ⓘ图标** > **HTTPS解密** > **证书** > **生成新的CA证书** > **安装证书**；<br>
+**系统设置** > **已下载描述文件** > **安装**；<br>
+**系统设置** > **通用** > **关于本机** > **证书信任设置** > **启用**此证书的根证书完全信任；<br>
+**配置** > 点击**已安装证书的配置文件**后面的**ⓘ图标** > **HTTPS解密** > 证书后面的**ⓘ图标** > **复制**；<br>
+**配置** > **模块** > **单击证书模块**跳出弹窗后**编辑参数** > 在**证书内容后面=**粘贴有效证书**并保存；<br>
+**配置** > 点击**已安装证书的配置文件**后面的**ⓘ图标** > **HTTPS解密** > **密码** > **复制内容**；<br>
+**配置** > **模块** > **单击证书模块**跳出弹窗后**编辑参数** > 在**证书密码后面=**粘贴有效密码**并保存；<br>
+开启iCloud同步的多设备用户，其他设备**请勿重新生成新的证书**，可在**复制证书内容**后，通过隔空投送或者其他方式传送内容，然后在新设备上点击**证书** > 后面的**ⓘ图标**，选择**粘贴** ，输入**证书密码** > **安装证书**，否则原设备的证书将会失效，同时请确认证书模块保持同步；<br>
 
-####软件配置：<br>
+软件配置：<br>
 首页-全局路由：
 选择**配置**；<br>
 首页-全局路由：
