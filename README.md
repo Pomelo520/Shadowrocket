@@ -21,10 +21,6 @@
 本项目所使用的**规则集**源自[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket)的仓库，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-RuleFiles.yml)**每日自动同步**；<br>
 本项目所使用的**GeoLite2数据库**源自[MaxMind](https://www.maxmind.com)提供的免费版本，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-GeoLite2Files.yml)**每日自动同步**[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)；<br>
 
-如何安装：<br>
-使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
-如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
-
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
 修改分流：<br>
@@ -50,6 +46,9 @@
 4.	模块配置：复制证书内容与密码到模块编辑参数中（详见仓库内证书模块说明）。<br>
 5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 
+### 如何安装：<br>
+使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
+如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
 
 更多使用说明，可参阅：[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
 
