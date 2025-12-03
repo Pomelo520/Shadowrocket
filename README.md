@@ -16,7 +16,7 @@
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
-Shadowrocket 的配置文件：
+Shadowrocket 的配置文件特点：
 1.	默认使用加密的 DoH / DoT 解析域名，并对未加密的 DNS 请求进行加密转发。<br>
 2.	对苹果、谷歌等系统服务使用专属分流策略，避免与通用规则冲突。<br>
 3.	对海外主流 AI 平台 做了独立分流，提升访问速度与稳定性。<br>
