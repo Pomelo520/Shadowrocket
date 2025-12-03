@@ -41,6 +41,10 @@
 证书信任之后，**请勿在设置中移除证书**，否则HTTPS解密功能将会失效；<br>
 证书模块启用后，HTTPS解密功能默认**强制开启**，配置中的“HTTPS解密开关”将不再生效；<br>
 
+如何安装：<br>
+使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
+如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
+
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
 证书模块使用办法：<br>
