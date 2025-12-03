@@ -12,21 +12,15 @@
 ---
 
 ### [配置文件](#配置文件)
-1.	默认使用加密的 DoH / DoT 解析域名，并对未加密的 DNS 请求进行加密转发。
-2.	对苹果、微软、谷歌等系统服务使用专属分流策略，避免与通用规则冲突。
-3.	对海外主流 AI 平台 做了独立分流，提升访问速度与稳定性。
-4.	对 微信 / 电报 等即时通讯做独立分流，降低因规则调整导致的账号风险。
-5.	针对国内与国外的媒体与策略使用独立分流，实现更灵活控制。
+1.	默认使用加密的 DoH / DoT 解析域名，并对未加密的 DNS 请求进行加密转发。<br>
+2.	对苹果、微软、谷歌等系统服务使用专属分流策略，避免与通用规则冲突。<br>
+3.	对海外主流 AI 平台 做了独立分流，提升访问速度与稳定性。<br>
+4.	对 微信 / 电报 等即时通讯做独立分流，降低因规则调整导致的账号风险。<br>
+5.	针对国内与国外的媒体与策略使用独立分流，实现更灵活控制。<br>
 6.	项目所使用的**规则集**源自[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket)的仓库，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-RuleFiles.yml)**每日自动同步**；<br>
 7.	项目所使用的**GeoLite2数据库**源自[MaxMind](https://www.maxmind.com)提供的免费版本，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-GeoLite2Files.yml)**每日自动同步**[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)；<br>
 
-[![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
-
-修改分流：<br>
-打开Shadowrocket首页，下拉进入**代理分组**，选择你想要修改的代理分组，选择对应的**策略**即可；<br>
-
-使用须知：若需使用部分模块，**必须开启MitM**，教程参考下方的[证书模块](#证书模块)；<br>
-如果本项目侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
+    [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
 ---
 
