@@ -28,7 +28,6 @@
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
 修改分流：<br>
-仅适用于包含**代理分组**的配置；<br>
 打开Shadowrocket首页，下拉进入**代理分组**，选择你想要修改的代理分组，选择对应的**策略**即可；<br>
 
 使用须知：若需使用部分模块，**必须开启MitM**，教程参考下方的[证书模块](#证书模块)；<br>
