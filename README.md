@@ -25,24 +25,11 @@
 使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装；<br>
 如无法加载配置，请将**全局路由**切换至**代理**模式，或自行检查网络；<br>
 
+[![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
+
 修改分流：<br>
 仅适用于包含**代理分组**的配置；<br>
 打开Shadowrocket首页，下拉进入**代理分组**，选择你想要修改的代理分组，选择对应的**策略**即可；<br>
-
----
-
-### [分流规则](#分流规则)
-[分流规则](https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)的默认策略既是完善的策略，如无特殊需求，无需自行调整；<br>
-代理分组内的策略**自动分流**，自动测试节点的可用性，优先选择**延迟较低**的节点，无需手动切换节点；<br>
-你所使用的节点，尽量包含**英美韩港**这四项；<br>
-如**不完全包含**这四个地区的节点，则需要自行修改代理分组/正则 <br>
-基础配置默认规则如下：<br>
-Telegram使用**英国节点**，Google、AI工具使用**美国节点**；<br>
-国内应用直接连接，其他规则及未匹配到的规则使用**自动测速组**；<br>
-为了保证完全接管流量，本配置默认使用**自动测速组**进行兜底，首页的节点选择将被分组替代，完全失效；<br>
-此配置是最适合**搭配机场使用**的配置，添加后无需调整，如节点包含**英美韩港**，建议首选此配置！<br>
-
-[![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
 使用须知：若需使用部分模块，**必须开启MitM**，教程参考下方的[证书模块](#证书模块)；<br>
 如果本项目侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
