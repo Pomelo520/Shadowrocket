@@ -1,5 +1,5 @@
 # 🗂️仓库简要
-本[仓库](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，对[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)，做出贡献的人表示由衷的[感谢](#特别鸣谢)！<br>
+本[仓库](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，对[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)，做出[贡献](#特别鸣谢)的人表示由衷的[感谢](#特别鸣谢)！<br>
 
 ---
 
