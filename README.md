@@ -12,7 +12,7 @@
 ---
 
 ### [配置文件](#配置文件)
-为了保证完全接管流量，本配置默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。此配置是最适合搭配机场使用的配置，添加后无需调整，建议首选此配置！如果侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
+为了保证完全接管流量，本配置默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。此配置是最适合搭配机场使用的配置，无特殊需求添加后无需调整此配置！如果侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
@@ -23,12 +23,12 @@ Shadowrocket的配置文件简要：
 4.	对 微信 / 电报 等即时通讯做独立分流，降低因规则调整导致的账号风险。<br>
 5.	针对国内与国外的媒体与策略使用独立分流，实现更灵活控制。<br>
 6.	配置文件使用的**规则集**源自[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket)的仓库，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-RuleFiles.yml)**每日自动同步**；<br>
-7.	项目所使用的**GeoLite2数据库**源自[MaxMind](https://www.maxmind.com)提供的免费版本，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-GeoLite2Files.yml)**每日自动同步**[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)；<br>
+7.	所使用的**GeoLite2数据库**源自[MaxMind](https://www.maxmind.com)提供的免费版本，由[GitHub Actions](https://github.com/Pomelo520/Shadowrocket/blob/main/.github/workflows/Sync-GeoLite2Files.yml)**每日自动同步**[Country.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/Country.mmdb) & [ASN.mmdb](https://Pomelo520.github.io/Shadowrocket/GeoLite2/ASN.mmdb)；<br>
 
 ---
 
 ### [证书模块](#证书模块)
-在实际使用软件时如果需要切换或更换 配置文件，且原配置已开启过 HTTPS 解密，则需要对新的配置文件重新安装并信任证书，才可使解密继续生效。为免除重复安装 CA 证书，可以选择使用证书模块。证书模块是一组手动添加已生效解密证书的模块，由于模块的优先级高于配置文件，可以使解密状态不受更换配置的影响。<br>
+在实际使用软件时如果需要切换或更换配置文件，且原配置已开启过 HTTPS 解密，则需要对新的配置文件重新安装并信任证书，才可使解密继续生效。为免除重复安装 CA 证书，可以选择使用证书模块。证书模块是一组手动添加已生效解密证书的模块，由于模块的优先级高于配置文件，可以使解密状态不受更换配置的影响。<br>
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
@@ -40,7 +40,7 @@ Shadowrocket的配置文件简要：
 5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 6.	使用须知：证书模块启用后，HTTPS 解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
 
-Shadowrocket 推荐设置<br>
+Shadowrocket推荐设置简要：<br>
 1.	首页 → 全局路由：选择配置。<br>
 2.	关闭“启用回退”。<br>
 3.	设置 → 按需连接：开启“始终开启”。<br>
