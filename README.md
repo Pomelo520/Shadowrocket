@@ -1,6 +1,7 @@
 # [Shadowrocket](#项目简介)
 本仓以普通用户的身份对原作者及所有为相关项目做出贡献的人表示由衷的感谢！其他使用需求可尝试参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
 本[项目](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)<br>
+
 ---
 
 ### [‼️重要声明](#‼️重要声明)
