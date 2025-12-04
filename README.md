@@ -57,7 +57,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 4.	多设备证书失效：请勿在多设备上重复生成证书，请通过复制/传输证书内容方法安装到其它设备。<br>
 5.	修改分流：打开[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)首页，下拉进入代理分组，选择你想要修改的代理分组，选择对应的策略即可。<br>
 
-其他使用需求可尝试参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)！<br>
+更多说明可参阅：[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)！<br>
 
 ---
 
