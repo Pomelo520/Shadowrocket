@@ -15,7 +15,7 @@
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
-Shadowrocket的配置文件简要：
+[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的配置文件简要：
 1.	默认使用加密的 DoH / DoT 解析域名，并对未加密的 DNS 请求进行加密转发。<br>
 2.	对苹果、谷歌等系统服务使用专属分流策略，避免与通用规则冲突。<br>
 3.	对海外主流 AI 平台 做了独立分流，提升访问速度与稳定性。<br>
@@ -51,11 +51,11 @@ Shadowrocket证书安装与配置步骤简要：<br>
 9.	排除路由 0.0.0.0/31：建议关闭。<br>
 
 ### [❓常见问题](#❓常见问题)
-1.	如何安装：使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装<br>
+1.	如何安装：使用安装[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的手机访问此页面，点击安装链接，一键跳转安装<br>
 2.	无法加载配置：请检查网络或将全局路由切换为代理模式。<br>
 3.	模块不可用：确认已生成并信任证书，且在模块中正确粘贴了证书内容与密码。<br>
 4.	多设备证书失效：请勿在多设备上重复生成证书，请通过复制/传输证书内容方法安装到其它设备。<br>
-5.	修改分流：打开Shadowrocket首页，下拉进入代理分组，选择你想要修改的代理分组，选择对应的策略即可。<br>
+5.	修改分流：打开[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)首页，下拉进入代理分组，选择你想要修改的代理分组，选择对应的策略即可。<br>
 
 更多使用说明，可参阅：[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
 本[仓库](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)<br>
