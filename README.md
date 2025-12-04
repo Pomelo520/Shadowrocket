@@ -1,5 +1,5 @@
 # [Shadowrocket](#项目简介)
-本[项目](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520](https://t.me/Pomelo520)维护，提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)<br>
+本[项目](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)<br>
 如果此项目对您有帮助，欢迎给予Star；若有其他需求或问题，请提交Issues！<br>
 
 ---
