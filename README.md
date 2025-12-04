@@ -26,7 +26,7 @@
 
 ---
 
-### [📄证书模块]
+### 📄证书模块
 在实际使用软件时如果需要切换或更换[配置文件](#配置文件)，且原配置已开启过 HTTPS 解密，则需要对新的[配置文件](#配置文件)重新安装并信任证书，才可使解密继续生效。为免除重复安装 CA 证书，可以选择使用证书模块。证书模块是一组手动添加已生效解密证书的模块，由于模块的优先级高于配置文件，可以使解密状态不受更换配置的影响。<br>
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
@@ -39,7 +39,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 6.	使用须知：证书模块启用后，HTTPS 解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
 
-### [⚙️推荐设置]
+### ⚙️推荐设置
 1.	首页 → 全局路由：选择配置。<br>
 2.	关闭“启用回退”。<br>
 3.	设置 → 按需连接：开启“始终开启”。<br>
@@ -50,7 +50,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 8.	温和策略机制：建议开启。<br>
 9.	排除路由 0.0.0.0/31：建议关闭。<br>
 
-### [❓常见问题]
+### ❓常见问题
 1.	如何安装：使用安装[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的手机访问此页面，点击安装链接，一键跳转安装<br>
 2.	无法加载配置：请检查网络或将全局路由切换为代理模式。<br>
 3.	模块不可用：确认已生成并信任证书，且在模块中正确粘贴了证书内容与密码。<br>
