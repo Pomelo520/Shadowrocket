@@ -11,7 +11,7 @@
 ---
 
 ### 📃配置文件
-为了保证完全接管流量，本[配置文件](#配置文件)默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。建议搭配[证书模块](#证书模块)使用，若无特殊需求则添加后无需调整此配置！<br>
+为了保证完全接管流量，本[配置文件](#配置文件)默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。建议搭配[证书模块](#证书模块)使用，若无特殊需求添加配置文件后则无需进行任何调整！<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
