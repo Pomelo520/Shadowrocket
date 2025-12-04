@@ -1,5 +1,5 @@
 # [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
-本[仓库](https://github.com/Pomelo520/Shadowrocket)以[普通用户](https://t.me/Pomelo520)的身份对原作者及所有为相关项目做出贡献的人表示由衷的感谢!其他使用需求可尝试参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
+本[仓库](https://github.com/Pomelo520/Shadowrocket)以[Pomelo520🫧](https://t.me/Pomelo520)的身份对原作者及所有为相关项目做出贡献的人表示由衷的感谢!其他使用需求可尝试参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
 
 ---
 
