@@ -1,7 +1,5 @@
 # [Shadowrocket](#项目简介)
-本仓以普通用户的身份对原作者及所有为相关项目做出贡献的人表示由衷的感谢！<br>
-其他使用需求可参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
-本[仓库](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)<br>
+本仓以普通用户的身份对原作者及所有为相关项目做出贡献的人表示由衷的感谢!其他使用需求可参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
 
 ---
 
@@ -60,6 +58,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 5.	修改分流：打开Shadowrocket首页，下拉进入代理分组，选择你想要修改的代理分组，选择对应的策略即可。<br>
 
 更多使用说明，可参阅：[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
+本[仓库](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)<br>
 
 ---
 
