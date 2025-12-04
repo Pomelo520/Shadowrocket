@@ -62,7 +62,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 
 ---
 
-### [🙏特别鸣谢]
+### [🙏特别鸣谢] (#感谢)
 [*@001ProMax*](https://github.com/001ProMax)
 [*@app2smile*](https://github.com/app2smile)
 [*@blackmatrix7*](https://github.com/blackmatrix7)
