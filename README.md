@@ -41,6 +41,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 6.	使用须知：证书模块启用后，HTTPS 解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
 
 ### ⚙️推荐设置
+[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)（常被用户称为“[小火煎](https://apps.apple.com/app/shadowrocket/id932747118)”）是一款由 Shadow Launch Technology Limited 专为 iOS 设备开发的网络代理工具，同时也支持 Apple TV 等设备，软件版本自 2.2.70 (2712) 起已正式支持 macOS，同时支持 x86/64 和 arm64。<br>
 1.	首页 → 全局路由：选择配置。<br>
 2.	关闭“启用回退”。<br>
 3.	设置 → 按需连接：开启“始终开启”。<br>
@@ -52,14 +53,14 @@ Shadowrocket证书安装与配置步骤简要：<br>
 9.	排除路由 0.0.0.0/31：建议关闭。<br>
 
 ### ❓常见问题
-Shadowrocket的换[配置文件](#配置文件)（通常以 *.conf 格式存在）主要用于快速设置和调整软件的主要功能。配置文件还可以在多设备间同步以及分享配置文件给其他用户，以快速部署相同设置、简化用户手动配置的流程。用户可以在配置文件里设置 通用参数、添加规则、Hosts、URL重写、HTTPS解密、脚本等内容。模块 的写法与配置文件相同
-同时，Shadowrocket 支持在配置文件中 编写本地节点，但该操作方式仅是为了兼容部分其他类型的配置文件，不能当作 Shadowrocket 添加节点 的优先选择<br>
+[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的换[配置文件](#配置文件)（通常以 *.conf 格式存在）主要用于快速设置和调整软件的主要功能。配置文件还可以在多设备间同步以及分享配置文件给其他用户，以快速部署相同设置、简化用户手动配置的流程。用户可以在配置文件里设置 通用参数、添加规则、Hosts、URL重写、HTTPS解密、脚本等内容。模块 的写法与配置文件相同
+同时，Shadowrocket 支持在配置文件中 编写本地节点，但该操作方式仅是为了兼容部分其他类型的配置文件，不能当作 Shadowrocket 添加节点 的优先选择。<br>
 
-1.	如何安装：使用安装[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的手机访问此页面，点击安装链接，一键跳转安装<br>
+1.	如何安装：使用安装Shadowrocket的手机访问此页面，点击安装链接，一键跳转安装<br>
 2.	无法加载配置：请检查网络或将全局路由切换为代理模式。<br>
 3.	模块不可用：确认已生成并信任证书，且在模块中正确粘贴了证书内容与密码。<br>
 4.	多设备证书失效：请勿在多设备上重复生成证书，请通过复制/传输证书内容方法安装到其它设备。<br>
-5.	修改分流：打开[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)首页，下拉进入代理分组，选择你想要修改的代理分组，选择对应的策略即可。<br>
+5.	修改分流：打开首页，下拉进入代理分组，选择你想要修改的代理分组，选择对应的策略即可。<br>
 
 更多说明可参阅：[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)！<br>
 
