@@ -12,6 +12,7 @@
 
 ### 📃配置文件
 为了保证完全接管流量，本[配置文件](#配置文件)默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。建议搭配[证书模块](#证书模块)使用，若无特殊需求添加配置文件后则无需进行任何调整！<br>
+=+Shadowrocket 的配置文件（通常以 *.conf 格式存在）主要用于快速设置和调整软件的主要功能。配置文件还可以在多设备间同步以及分享配置文件给其他用户，以快速部署相同设置、简化用户手动配置的流程。
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
@@ -51,7 +52,8 @@ Shadowrocket证书安装与配置步骤简要：<br>
 9.	排除路由 0.0.0.0/31：建议关闭。<br>
 
 ### ❓常见问题
-Shadowrocket（常被用户称为“小火箭”）是一款由 Shadow Launch Technology Limited 专为 iOS 设备开发的网络代理工具，同时也支持 Apple TV 等设备，软件版本自 2.2.70 (2712) 起已正式支持 macOS，同时支持 x86/64 和 arm64<br>
+Shadowrocket的换[配置文件](#配置文件)（通常以 *.conf 格式存在）主要用于快速设置和调整软件的主要功能。配置文件还可以在多设备间同步以及分享配置文件给其他用户，以快速部署相同设置、简化用户手动配置的流程。用户可以在配置文件里设置 通用参数、添加规则、Hosts、URL重写、HTTPS解密、脚本等内容。模块 的写法与配置文件相同
+同时，Shadowrocket 支持在配置文件中 编写本地节点，但该操作方式仅是为了兼容部分其他类型的配置文件，不能当作 Shadowrocket 添加节点 的优先选择<br>
 
 1.	如何安装：使用安装[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的手机访问此页面，点击安装链接，一键跳转安装<br>
 2.	无法加载配置：请检查网络或将全局路由切换为代理模式。<br>
