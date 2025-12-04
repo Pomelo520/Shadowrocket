@@ -3,15 +3,15 @@
 
 ---
 
-### [‼️重要声明]
+### ‼️重要声明
 禁止在中国大陆的任何平台传播此项目！<br>
 禁止将本项目中的任何内容用于违法活动或用于盈利目的！<br>
 本项目仅供学习交流及测试，使用本项目中的内容所造成的一切后果，均由使用者承担！<br>
 
 ---
 
-### [📃配置文件]
-为了保证完全接管流量，本 [配置文件](#配置文件)默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。此配置是最适合搭配机场使用的配置，无特殊需求添加后无需调整此配置！如果侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
+### 📃配置文件
+为了保证完全接管流量，本[配置文件](#配置文件)默认使用代理分组进行兜底，首页的节点选择将被分组替代，完全失效。此配置是最适合搭配机场使用的配置，无特殊需求添加后无需调整此配置！如果侵犯了您的利益，或不希望我收集您的规则，请提交Issues，我会第一时间进行移除，谢谢！<br>
 
 [![一键安装 Shadowrocket 配置文件](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket配置文件&color=grey&logo=googledocs&logoColor=white&labelColor=orange&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://config/add/https://Pomelo520.github.io/Shadowrocket/Release/Pomelo520.conf)<br>
 
@@ -27,7 +27,7 @@
 ---
 
 ### [📄证书模块]
-在实际使用软件时如果需要切换或更换配置文件，且原配置已开启过 HTTPS 解密，则需要对新的配置文件重新安装并信任证书，才可使解密继续生效。为免除重复安装 CA 证书，可以选择使用证书模块。证书模块是一组手动添加已生效解密证书的模块，由于模块的优先级高于配置文件，可以使解密状态不受更换配置的影响。<br>
+在实际使用软件时如果需要切换或更换[配置文件](#配置文件)，且原配置已开启过 HTTPS 解密，则需要对新的[配置文件](#配置文件)重新安装并信任证书，才可使解密继续生效。为免除重复安装 CA 证书，可以选择使用证书模块。证书模块是一组手动添加已生效解密证书的模块，由于模块的优先级高于配置文件，可以使解密状态不受更换配置的影响。<br>
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
