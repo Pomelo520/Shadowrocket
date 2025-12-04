@@ -3,7 +3,7 @@
 
 ---
 
-### ‼️重要声明
+### 🚨重要声明
 禁止在中国大陆的任何平台传播此项目！<br>
 禁止将本项目中的任何内容用于违法活动或用于盈利目的！<br>
 本项目仅供学习交流及测试，使用本项目中的内容所造成的一切后果，均由使用者承担！<br>
@@ -41,7 +41,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 6.	使用须知：证书模块启用后，HTTPS 解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
 
 ### ⚙️推荐设置
-[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)（常被用户称为“[小火煎](https://apps.apple.com/app/shadowrocket/id932747118)”）是一款由 Shadow Launch Technology Limited 专为 iOS 设备开发的网络代理工具，同时也支持 Apple TV 等设备，软件版本自 2.2.70 (2712) 起已正式支持 macOS，同时支持 x86/64 和 arm64。<br>
+[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)（常被用户称为“[小火箭](https://apps.apple.com/app/shadowrocket/id932747118)”）是一款由 Shadow Launch Technology Limited 专为 iOS 设备开发的网络代理工具，同时也支持 Apple TV 等设备，软件版本自 2.2.70 (2712) 起已正式支持 macOS，同时支持 x86/64 和 arm64。<br>
 1.	首页 → 全局路由：选择配置。<br>
 2.	关闭“启用回退”。<br>
 3.	设置 → 按需连接：开启“始终开启”。<br>
@@ -66,7 +66,7 @@ Shadowrocket证书安装与配置步骤简要：<br>
 
 ---
 
-### 特别鸣谢
+### 📢特别鸣谢
 [*@001ProMax*](https://github.com/001ProMax)
 [*@app2smile*](https://github.com/app2smile)
 [*@blackmatrix7*](https://github.com/blackmatrix7)
