@@ -32,7 +32,7 @@ Shadowrocket的配置文件简要：
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
-证书安装与配置步骤简要：<br>
+Shadowrocket证书安装与配置步骤简要：<br>
 1.	Shadowrocket：配置 → 点击配置文件右侧 ⓘ → HTTPS 解密 → 证书 → 生成新的 CA 证书 → 安装证书。<br>
 2.	系统设置：已下载的描述文件 → 安装。<br>
 3.	系统设置：通用 → 关于本机 → 证书信任设置 → 启用该根证书完全信任。<br>
@@ -40,7 +40,7 @@ Shadowrocket的配置文件简要：
 5.	开启 iCloud 同步的多设备用户：请勿在其它设备重新生成证书，建议复制证书内容并通过 AirDrop 等方式在设备间同步安装，否则原设备证书会失效。<br>
 6.	使用须知：证书模块启用后，HTTPS 解密功能默认强制开启，配置中的“HTTPS解密开关”将不再生效。<br>
 
-Shadowrocket推荐设置简要：<br>
+Shadowrocket app 推荐设置简要：<br>
 1.	首页 → 全局路由：选择配置。<br>
 2.	关闭“启用回退”。<br>
 3.	设置 → 按需连接：开启“始终开启”。<br>
