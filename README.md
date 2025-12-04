@@ -25,7 +25,7 @@ Shadowrocket的配置文件简要：
 ---
 
 ### 📄证书模块
-在实际使用软件时如果需要切换或更换[配置文件](#配置文件)，且原配置已开启过 HTTPS 解密，则需要对新的配置文件重新安装并信任证书，才可使解密继续生效。为免除重复安装 CA 证书，可以选择使用证书模块。证书模块是一组手动添加已生效解密证书的模块，由于模块的优先级高于配置文件，可以使解密状态不受更换配置的影响。<br>
+在实际使用软件时如果需要切换或更换[配置文件](#配置文件)，且原配置已开启过 HTTPS 解密，则需要对新的配置文件重新安装并信任证书，才可使解密继续生效。为免除重复安装 CA 证书，可以选择使用证书模块。[证书模块](#证书模块)是一组手动添加已生效解密证书的模块，由于模块的优先级高于配置文件，可以使解密状态不受更换配置的影响。<br>
 
 [![一键安装 Shadowrocket证书模块](https://img.shields.io/static/v1?label=一键安装&message=Shadowrocket证书模块&color=grey&logo=googledocs&logoColor=white&labelColor=blue&messageColor=white)](https://Pomelo520.github.io/Shadowrocket/Static/Redirect.html?url=shadowrocket://install?module=https://Pomelo520.github.io/Shadowrocket/Release/Certificate.sgmodule)<br>
 
