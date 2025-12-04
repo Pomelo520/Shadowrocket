@@ -51,6 +51,8 @@ Shadowrocket证书安装与配置步骤简要：<br>
 9.	排除路由 0.0.0.0/31：建议关闭。<br>
 
 ### ❓常见问题
+Shadowrocket（常被用户称为“小火箭”）是一款由 Shadow Launch Technology Limited 专为 iOS 设备开发的网络代理工具，同时也支持 Apple TV 等设备，软件版本自 2.2.70 (2712) 起已正式支持 macOS，同时支持 x86/64 和 arm64<br>
+
 1.	如何安装：使用安装[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的手机访问此页面，点击安装链接，一键跳转安装<br>
 2.	无法加载配置：请检查网络或将全局路由切换为代理模式。<br>
 3.	模块不可用：确认已生成并信任证书，且在模块中正确粘贴了证书内容与密码。<br>
