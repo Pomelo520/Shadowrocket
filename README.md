@@ -1,5 +1,5 @@
 # [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
-本[仓库](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，对原作者及所有为提供[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)，做出贡献的人表示由衷的[感谢](#特别鸣谢)！其他使用需求可尝试参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)<br>
+本[仓库](https://github.com/Pomelo520/Shadowrocket)由[Pomelo520🫧](https://t.me/Pomelo520)维护，对原作者及所有为本[仓库](https://github.com/Pomelo520/Shadowrocket)[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)的[配置文件](#配置文件)，做出贡献的人表示由衷的[感谢](#特别鸣谢)！其他使用需求可尝试参阅[Shadowrocket使用手册](https://github.com/LOWERTOP/Shadowrocket)！<br>
 
 ---
 
