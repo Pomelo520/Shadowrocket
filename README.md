@@ -78,4 +78,5 @@ Shadowrocket证书安装与配置步骤简要：<br>
 [*@QingRex*](https://github.com/QingRex)
 [*@Sliverkiss*](https://github.com/Sliverkiss)
 [*@zirawell*](https://github.com/zirawell)
-[*@zZPiglet*](https://github.com/zZPiglet)<br>
+[*@zZPiglet*](https://github.com/zZPiglet)
+[*@XiangwanGuan*](https://github.com/XiangwanGuan)<br>
