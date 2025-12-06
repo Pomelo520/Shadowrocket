@@ -19,43 +19,47 @@ jobs:
 
     - name: Download rule files
       run: |
-        mkdir -p Rules
-        base_url="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
-        cat > rule_sources.list <<EOF
-        Rules/Lan.list|$base_url/Lan/Lan.list
-        Rules/WeChat.list|$base_url/WeChat/WeChat.list
-        Rules/Telegram.list|$base_url/Telegram/Telegram.list
-        Rules/OpenAI.list|$base_url/OpenAI/OpenAI.list
-        Rules/Copilot.list|$base_url/Copilot/Copilot.list
-        Rules/Gemini.list|$base_url/Gemini/Gemini.list
-        Rules/Claude.list|$base_url/Claude/Claude.list
-        Rules/Apple_Domain.list|$base_url/Apple/Apple_Domain.list
-        Rules/Apple.list|$base_url/Apple/Apple.list
-        Rules/Microsoft.list|$base_url/Microsoft/Microsoft.list
-        Rules/Google.list|$base_url/Google/Google.list
-        Rules/GlobalMedia_Domain.list|$base_url/GlobalMedia/GlobalMedia_Domain.list
-        Rules/GlobalMedia.list|$base_url/GlobalMedia/GlobalMedia.list
-        Rules/Global_Domain.list|$base_url/Global/Global_Domain.list
-        Rules/Global.list|$base_url/Global/Global.list
-        Rules/ChinaMedia.list|$base_url/ChinaMedia/ChinaMedia.list
-        Rules/China_Domain.list|$base_url/ChinaNoMedia/ChinaNoMedia_Domain.list
-        Rules/China.list|$base_url/ChinaNoMedia/ChinaNoMedia.list
-        Rules/ChinaMax.list|$base_url/ChinaMax/ChinaMax.list
-        Rules/ChinaMax_Domain.list|$base_url/ChinaMax/ChinaMax_Domain.list
-        Rules/YouTube.list|$base_url/YouTube/YouTube.list
-        Rules/TikTok.list|$base_url/TikTok/TikTok.list
-        Rules/Spotify.list|$base_url/Spotify/Spotify.list
-        Rules/Twitter.list|$base_url/Twitter/Twitter.list
-        Rules/GitHub.list|$base_url/GitHub/GitHub.list
-        Rules/Whatsapp.list|$base_url/WhatsApp/WhatsApp.list
-        Rules/Netflix.list|$base_url/Netflix/Netflix.list
-        Rules/Instagram.list|$base_url/Instagram/Instagram.list
-        Rules/Grok.list|$base_url/Grok/Grok.list
-        EOF
-        while IFS='|' read -r filepath url; do
-          echo "Downloading: $url -> $filepath"
-          curl -fsS -o "$filepath" "$url" || (echo "Retrying..." && curl -fsS -o "$filepath" "$url") || echo "Download failed: $url"
-        done < rule_sources.list
+      mkdir -p Rules
+      base_url="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
+    
+      declare -A rules=(
+        ["Rules/Lan.list"]="Lan/Lan.list"
+        ["Rules/WeChat.list"]="WeChat/WeChat.list"
+        ["Rules/Telegram.list"]="Telegram/Telegram.list"
+        ["Rules/OpenAI.list"]="OpenAI/OpenAI.list"
+        ["Rules/Copilot.list"]="Copilot/Copilot.list"
+        ["Rules/Gemini.list"]="Gemini/Gemini.list"
+        ["Rules/Claude.list"]="Claude/Claude.list"
+        ["Rules/Apple_Domain.list"]="Apple/Apple_Domain.list"
+        ["Rules/Apple.list"]="Apple/Apple.list"
+        ["Rules/Microsoft.list"]="Microsoft/Microsoft.list"
+        ["Rules/Google.list"]="Google/Google.list"
+        ["Rules/GlobalMedia_Domain.list"]="GlobalMedia/GlobalMedia_Domain.list"
+        ["Rules/GlobalMedia.list"]="GlobalMedia/GlobalMedia.list"
+        ["Rules/Global_Domain.list"]="Global/Global_Domain.list"
+        ["Rules/Global.list"]="Global/Global.list"
+        ["Rules/ChinaMedia.list"]="ChinaMedia/ChinaMedia.list"
+        ["Rules/China_Domain.list"]="ChinaNoMedia/ChinaNoMedia_Domain.list"
+        ["Rules/China.list"]="ChinaNoMedia/ChinaNoMedia.list"
+        ["Rules/ChinaMax.list"]="ChinaMax/ChinaMax.list"
+        ["Rules/ChinaMax_Domain.list"]="ChinaMax/ChinaMax_Domain.list"
+        ["Rules/YouTube.list"]="YouTube/YouTube.list"
+        ["Rules/TikTok.list"]="TikTok/TikTok.list"
+        ["Rules/Spotify.list"]="Spotify/Spotify.list"
+        ["Rules/Twitter.list"]="Twitter/Twitter.list"
+        ["Rules/GitHub.list"]="GitHub/GitHub.list"
+        ["Rules/Whatsapp.list"]="WhatsApp/WhatsApp.list"
+        ["Rules/Netflix.list"]="Netflix/Netflix.list"
+        ["Rules/Instagram.list"]="Instagram/Instagram.list"
+        ["Rules/Grok.list"]="Grok/Grok.list"
+    )
+  
+      for local_file in "${!rules[@]}"; do
+      remote_path="${rules[$local_file]}"
+      url="$base_url/$remote_path"
+      echo "Downloading: $url -> $local_file"
+      curl -fsS -o "$local_file" "$url" || (sleep 1 && curl -fsS -o "$local_file" "$url") || echo "Download failed: $url"
+    done
 
     - name: Clean up rule files
       run: |
