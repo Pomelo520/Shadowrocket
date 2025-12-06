@@ -1,10 +1,4 @@
-# NAME: OpenAI
-# UPDATED: 2025-06-06
-# DOMAIN: 7
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 24
-# IP-ASN: 1
-# IP-CIDR: 2
+# UPDATED: 2025-06-06 09:20:00
 # TOTAL: 35
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net

@@ -1,12 +1,6 @@
 # AI Rules Collection
 
-# NAME: OpenAI
-# UPDATED: 2025-06-06
-# DOMAIN: 7
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 24
-# IP-ASN: 1
-# IP-CIDR: 2
+# UPDATED: 2025-06-06 09:20:00
 # TOTAL: 35
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
@@ -44,13 +38,7 @@ IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
 
-# NAME: Copilot
-# UPDATED: 2025-06-06
-# DOMAIN: 20
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 26
-# IP-ASN: 2
-# IP-CIDR: 2
+# UPDATED: 2025-06-06 09:20:02
 # TOTAL: 51
 DOMAIN,api.msn.com
 DOMAIN,api.statsig.com
@@ -104,11 +92,7 @@ IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,14061,no-resolve
 IP-ASN,20473,no-resolve
 
-# NAME: Gemini
-# UPDATED: 2025-06-06
-# DOMAIN: 3
-# DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 7
+# UPDATED: 2025-06-06 09:20:02
 # TOTAL: 13
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -124,18 +108,13 @@ DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 
-# NAME: Claude
-# UPDATED: 2025-06-06
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 2
+# UPDATED: 2025-06-06 09:20:01
 # TOTAL: 3
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
-# NAME: Grok
 # UPDATED: 2025-06-04
-# DOMAIN-SUFFIX: 2
 # TOTAL: 2
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com

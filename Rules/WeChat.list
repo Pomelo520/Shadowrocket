@@ -1,9 +1,4 @@
-# NAME: WeChat
-# UPDATED: 2025-06-06
-# DOMAIN: 8
-# DOMAIN-SUFFIX: 22
-# IP-ASN: 1
-# USER-AGENT: 2
+# UPDATED: 2025-06-06 09:18:25
 # TOTAL: 33
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,btrace.qq.com
