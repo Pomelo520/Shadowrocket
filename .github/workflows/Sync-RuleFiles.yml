@@ -66,11 +66,10 @@ jobs:
 
     - name: Generate Ai.list
       run: |
-        echo "# AI Rules Collection" > Rules/Ai.list
+        echo "# NAME: Ai" > Rules/Ai.list
+        echo "# UPDATED: $(date +'%Y-%m-%d %H:%M:%S')" >> Rules/Ai.list
         grep -h -v '^#' Rules/OpenAI.list Rules/Copilot.list Rules/Gemini.list Rules/Claude.list Rules/Grok.list | sort -u >> Rules/Ai.list
-        total_rules=$(grep -c -v '^#' Rules/Ai.list)
-        current_time=$(date +"%Y-%m-%d %H:%M:%S")
-        sed -i "1i# UPDATED: $current_time\n# TOTAL: $total_rules" Rules/Ai.list
+        sed -i "2i# TOTAL: $(grep -c -v '^#' Rules/Ai.list)" Rules/Ai.list
 
     - name: Stash and rebase
       run: |
