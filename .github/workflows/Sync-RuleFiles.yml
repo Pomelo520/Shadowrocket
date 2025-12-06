@@ -61,8 +61,7 @@ jobs:
       run: |
         find Rules -type f -name "*.list" -exec sed -i \
           -e '/^#/!b' \
-          -e '/^# UPDATED:/!{/^# TOTAL:/!d}' \
-          -e '/^# UPDATED:/s/^\(# UPDATED: [0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} [0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\).*$/\1/' \
+          -e '/^# \(NAME\|UPDATED\|TOTAL\):/!d' \
           {} +
 
     - name: Generate Ai.list
