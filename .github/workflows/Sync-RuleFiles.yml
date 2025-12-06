@@ -64,14 +64,13 @@ jobs:
           -e '/^# \(NAME\|UPDATED\|TOTAL\):/!d' \
           {} +
 
-    - name: Generate Ai.list
-      run: |
-        echo "# AI Rules Collection" > Rules/Ai.list
-        echo "" >> Rules/Ai.list && cat Rules/OpenAI.list >> Rules/Ai.list
-        echo "" >> Rules/Ai.list && cat Rules/Copilot.list >> Rules/Ai.list
-        echo "" >> Rules/Ai.list && cat Rules/Gemini.list >> Rules/Ai.list
-        echo "" >> Rules/Ai.list && cat Rules/Claude.list >> Rules/Ai.list
-        echo "" >> Rules/Ai.list && cat Rules/Grok.list >> Rules/Ai.list
+  - name: Generate Ai.list
+    run: |
+      echo "# AI Rules Collection" > Rules/Ai.list
+      grep -h -v '^#' Rules/OpenAI.list Rules/Copilot.list Rules/Gemini.list Rules/Claude.list Rules/Grok.list | sort -u >> Rules/Ai.list
+      total_rules=$(grep -c -v '^#' Rules/Ai.list)
+      current_time=$(date +"%Y-%m-%d %H:%M:%S")
+      sed -i "1i# UPDATED: $current_time\n# TOTAL: $total_rules" Rules/Ai.list
 
     - name: Stash and rebase
       run: |
