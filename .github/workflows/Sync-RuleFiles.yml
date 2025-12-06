@@ -64,7 +64,7 @@ jobs:
           -e '/^# \(NAME\|UPDATED\|TOTAL\):/!d' \
           {} +
 
-  - name: Generate Ai.list
+   - name: Generate Ai.list
     run: |
       echo "# AI Rules Collection" > Rules/Ai.list
       grep -h -v '^#' Rules/OpenAI.list Rules/Copilot.list Rules/Gemini.list Rules/Claude.list Rules/Grok.list | sort -u >> Rules/Ai.list
